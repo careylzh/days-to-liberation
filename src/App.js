@@ -52,6 +52,14 @@ function App() {
           </span>
         </div>
       </section>
+      <a
+        className="photo-credit"
+        href="https://unsplash.com/license"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Photo via Unsplash
+      </a>
     </main>
   );
 }

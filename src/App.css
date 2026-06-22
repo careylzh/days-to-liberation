@@ -66,6 +66,21 @@ h1 {
   text-transform: uppercase;
 }
 
+.photo-credit {
+  position: fixed;
+  right: 18px;
+  bottom: 14px;
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.8);
+}
+
+.photo-credit:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 520px) {
   .App {
     padding: 20px;
@@ -73,5 +88,11 @@ h1 {
 
   .countdown-panel {
     padding: 22px 18px;
+  }
+
+  .photo-credit {
+    right: 12px;
+    bottom: 10px;
+    font-size: 0.72rem;
   }
 }
