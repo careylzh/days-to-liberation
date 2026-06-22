@@ -1,8 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders the sample countdown event', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(
+    screen.getByRole('heading', {
+      name: /copa de singapura - grand finale/i,
+    })
+  ).toBeInTheDocument();
+  expect(screen.getByText(/14 november 2026/i)).toBeInTheDocument();
 });
