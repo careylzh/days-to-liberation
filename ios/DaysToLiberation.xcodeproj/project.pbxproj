@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0656264350C749C2227CEBD8 /* DaysToLiberationWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C0FB7161CFFB3CF9DA520BC7 /* DaysToLiberationWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DEA4899947AD8F90B2A6129 /* CountdownRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D0AE563D9F686DD645B25 /* CountdownRepository.swift */; };
+		28B6716EB0E0516F55647F97 /* CountdownListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0ED89623E4469537596952 /* CountdownListView.swift */; };
+		44DC860EE708D15018E5A50A /* DaysToLiberationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA9FEAA2D14B3DCE4625347 /* DaysToLiberationApp.swift */; };
+		4D9F671F5AFCA9A8C38E9630 /* CountdownWidgetIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025D15C1942A52938DC60442 /* CountdownWidgetIntent.swift */; };
+		6BA46EE19A3607A6A9EB24B1 /* CountdownDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0E2C428A6BBF24F87D134 /* CountdownDetailView.swift */; };
+		6C12815D450E92D03A56B071 /* CountdownEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883CFB54B6586CE5243DEE46 /* CountdownEditorView.swift */; };
+		862FE977A6016FE6E98B8FF8 /* CountdownWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4017C78C365DE623E4D58 /* CountdownWidget.swift */; };
+		912A72FFE87FF6442369359D /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C04DB1E0C57D33B1713E99 /* Countdown.swift */; };
+		94400839BA8770452D1FC4FA /* CountdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B1807BF661015FA771E90C /* CountdownTests.swift */; };
+		C44068AEA66AD63576B9CB0B /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C04DB1E0C57D33B1713E99 /* Countdown.swift */; };
+		C81E55B152B31DFF7FBC3A21 /* CountdownRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D0AE563D9F686DD645B25 /* CountdownRepository.swift */; };
+		DF4156F6F27F0F029B60174E /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C04DB1E0C57D33B1713E99 /* Countdown.swift */; };
+		E69934BC89D0DF3AF9368214 /* CountdownStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EECCDBE109830A96088A7A /* CountdownStore.swift */; };
+		F030F318384FC45839DF952A /* CountdownRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D0AE563D9F686DD645B25 /* CountdownRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		883E84FC9EAC4430990CDDAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B947CCA7E650B65D7C4DCF29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C986EC4449C6BE7E2D1AD5;
+			remoteInfo = DaysToLiberationWidgetExtension;
+		};
+		A731F4C4F065AA5FF1A2A555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B947CCA7E650B65D7C4DCF29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9CA567C9D3DB119C4D3A411;
+			remoteInfo = DaysToLiberation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		354DA24BB1C7FD3CD4EB3BDD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0656264350C749C2227CEBD8 /* DaysToLiberationWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		025D15C1942A52938DC60442 /* CountdownWidgetIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownWidgetIntent.swift; sourceTree = "<group>"; };
+		09B1807BF661015FA771E90C /* CountdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTests.swift; sourceTree = "<group>"; };
+		0CA9FEAA2D14B3DCE4625347 /* DaysToLiberationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysToLiberationApp.swift; sourceTree = "<group>"; };
+		1CD4017C78C365DE623E4D58 /* CountdownWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownWidget.swift; sourceTree = "<group>"; };
+		2E0ED89623E4469537596952 /* CountdownListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownListView.swift; sourceTree = "<group>"; };
+		51DE3311336D25FA9DEB6E72 /* DaysToLiberationWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DaysToLiberationWidget.entitlements; sourceTree = "<group>"; };
+		78EECCDBE109830A96088A7A /* CountdownStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownStore.swift; sourceTree = "<group>"; };
+		883CFB54B6586CE5243DEE46 /* CountdownEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownEditorView.swift; sourceTree = "<group>"; };
+		928629941D2B4AB2B43F7FBD /* DaysToLiberationTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DaysToLiberationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C04DB1E0C57D33B1713E99 /* Countdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown.swift; sourceTree = "<group>"; };
+		A0AC6E78DD3D52E03398E14E /* DaysToLiberation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DaysToLiberation.entitlements; sourceTree = "<group>"; };
+		AC5FED369C2D33E52E517C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B0D0E2C428A6BBF24F87D134 /* CountdownDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownDetailView.swift; sourceTree = "<group>"; };
+		C0FB7161CFFB3CF9DA520BC7 /* DaysToLiberationWidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = DaysToLiberationWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D399A404FA9BF6D16AAD2989 /* DaysToLiberation.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DaysToLiberation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37D0AE563D9F686DD645B25 /* CountdownRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownRepository.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		55A779E79BCF8287F3F0E30D = {
+			isa = PBXGroup;
+			children = (
+				92D168106C529382118DC534 /* App */,
+				6D9515B2311B9A17FC9B0188 /* Shared */,
+				C501B82B614EC02FBAD49BEC /* Tests */,
+				FD58BF4AC687EE9229179E69 /* Widget */,
+				677DFC886FCEE05A4AC8ED40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		677DFC886FCEE05A4AC8ED40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D399A404FA9BF6D16AAD2989 /* DaysToLiberation.app */,
+				928629941D2B4AB2B43F7FBD /* DaysToLiberationTests.xctest */,
+				C0FB7161CFFB3CF9DA520BC7 /* DaysToLiberationWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D9515B2311B9A17FC9B0188 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				96C04DB1E0C57D33B1713E99 /* Countdown.swift */,
+				F37D0AE563D9F686DD645B25 /* CountdownRepository.swift */,
+			);
+			name = Shared;
+			path = DaysToLiberation/Shared;
+			sourceTree = "<group>";
+		};
+		92D168106C529382118DC534 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0E2C428A6BBF24F87D134 /* CountdownDetailView.swift */,
+				883CFB54B6586CE5243DEE46 /* CountdownEditorView.swift */,
+				2E0ED89623E4469537596952 /* CountdownListView.swift */,
+				78EECCDBE109830A96088A7A /* CountdownStore.swift */,
+				A0AC6E78DD3D52E03398E14E /* DaysToLiberation.entitlements */,
+				0CA9FEAA2D14B3DCE4625347 /* DaysToLiberationApp.swift */,
+			);
+			name = App;
+			path = DaysToLiberation/App;
+			sourceTree = "<group>";
+		};
+		C501B82B614EC02FBAD49BEC /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				09B1807BF661015FA771E90C /* CountdownTests.swift */,
+			);
+			name = Tests;
+			path = DaysToLiberation/Tests;
+			sourceTree = "<group>";
+		};
+		FD58BF4AC687EE9229179E69 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				1CD4017C78C365DE623E4D58 /* CountdownWidget.swift */,
+				025D15C1942A52938DC60442 /* CountdownWidgetIntent.swift */,
+				51DE3311336D25FA9DEB6E72 /* DaysToLiberationWidget.entitlements */,
+				AC5FED369C2D33E52E517C77 /* Info.plist */,
+			);
+			name = Widget;
+			path = DaysToLiberation/Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49C986EC4449C6BE7E2D1AD5 /* DaysToLiberationWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E23D3BF3AB2673C538F1C9 /* Build configuration list for PBXNativeTarget "DaysToLiberationWidgetExtension" */;
+			buildPhases = (
+				2375ECF36CA99DEDFF656BF3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaysToLiberationWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = DaysToLiberationWidgetExtension;
+			productReference = C0FB7161CFFB3CF9DA520BC7 /* DaysToLiberationWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B4254B1154A660174EB4C6DF /* DaysToLiberationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A027341E58B5889F8F160DF2 /* Build configuration list for PBXNativeTarget "DaysToLiberationTests" */;
+			buildPhases = (
+				7E942D6A39C8984188CC661B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE6B5FC052C80BF6CB59BB2 /* PBXTargetDependency */,
+			);
+			name = DaysToLiberationTests;
+			packageProductDependencies = (
+			);
+			productName = DaysToLiberationTests;
+			productReference = 928629941D2B4AB2B43F7FBD /* DaysToLiberationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9CA567C9D3DB119C4D3A411 /* DaysToLiberation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126750C2CF9EC57EA9378895 /* Build configuration list for PBXNativeTarget "DaysToLiberation" */;
+			buildPhases = (
+				7B40E8679DD94FA5F33F1F73 /* Sources */,
+				354DA24BB1C7FD3CD4EB3BDD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB1F130EE254C4279A992DD0 /* PBXTargetDependency */,
+			);
+			name = DaysToLiberation;
+			packageProductDependencies = (
+			);
+			productName = DaysToLiberation;
+			productReference = D399A404FA9BF6D16AAD2989 /* DaysToLiberation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B947CCA7E650B65D7C4DCF29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					49C986EC4449C6BE7E2D1AD5 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					B4254B1154A660174EB4C6DF = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					D9CA567C9D3DB119C4D3A411 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8416A1F70F71760A62EAA128 /* Build configuration list for PBXProject "DaysToLiberation" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 55A779E79BCF8287F3F0E30D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 677DFC886FCEE05A4AC8ED40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9CA567C9D3DB119C4D3A411 /* DaysToLiberation */,
+				B4254B1154A660174EB4C6DF /* DaysToLiberationTests */,
+				49C986EC4449C6BE7E2D1AD5 /* DaysToLiberationWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2375ECF36CA99DEDFF656BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4156F6F27F0F029B60174E /* Countdown.swift in Sources */,
+				C81E55B152B31DFF7FBC3A21 /* CountdownRepository.swift in Sources */,
+				862FE977A6016FE6E98B8FF8 /* CountdownWidget.swift in Sources */,
+				4D9F671F5AFCA9A8C38E9630 /* CountdownWidgetIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B40E8679DD94FA5F33F1F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912A72FFE87FF6442369359D /* Countdown.swift in Sources */,
+				6BA46EE19A3607A6A9EB24B1 /* CountdownDetailView.swift in Sources */,
+				6C12815D450E92D03A56B071 /* CountdownEditorView.swift in Sources */,
+				28B6716EB0E0516F55647F97 /* CountdownListView.swift in Sources */,
+				1DEA4899947AD8F90B2A6129 /* CountdownRepository.swift in Sources */,
+				E69934BC89D0DF3AF9368214 /* CountdownStore.swift in Sources */,
+				44DC860EE708D15018E5A50A /* DaysToLiberationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E942D6A39C8984188CC661B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44068AEA66AD63576B9CB0B /* Countdown.swift in Sources */,
+				F030F318384FC45839DF952A /* CountdownRepository.swift in Sources */,
+				94400839BA8770452D1FC4FA /* CountdownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB1F130EE254C4279A992DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C986EC4449C6BE7E2D1AD5 /* DaysToLiberationWidgetExtension */;
+			targetProxy = 883E84FC9EAC4430990CDDAC /* PBXContainerItemProxy */;
+		};
+		CFE6B5FC052C80BF6CB59BB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9CA567C9D3DB119C4D3A411 /* DaysToLiberation */;
+			targetProxy = A731F4C4F065AA5FF1A2A555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DB216FE4FEF2BFD94C6880F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1ADD48F19D8CE1888DD13159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.careylzh.daystoliberation.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaysToLiberation.app/DaysToLiberation";
+			};
+			name = Debug;
+		};
+		5732E2C2E5105DEC4EA1A53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.careylzh.daystoliberation.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaysToLiberation.app/DaysToLiberation";
+			};
+			name = Release;
+		};
+		61CDEBDBEC00340D63F33F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DaysToLiberation/App/DaysToLiberation.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Days to Liberation";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.careylzh.daystoliberation;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76FF51C5966E7A1B80482271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DaysToLiberation/Widget/DaysToLiberationWidget.entitlements;
+				INFOPLIST_FILE = DaysToLiberation/Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.careylzh.daystoliberation.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEE10DBE570D807AE45879DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DaysToLiberation/Widget/DaysToLiberationWidget.entitlements;
+				INFOPLIST_FILE = DaysToLiberation/Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.careylzh.daystoliberation.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA9897E3EEAF99C6F04B0B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F22FD5520A818144ECF48993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DaysToLiberation/App/DaysToLiberation.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Days to Liberation";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.careylzh.daystoliberation;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		126750C2CF9EC57EA9378895 /* Build configuration list for PBXNativeTarget "DaysToLiberation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61CDEBDBEC00340D63F33F67 /* Debug */,
+				F22FD5520A818144ECF48993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		18E23D3BF3AB2673C538F1C9 /* Build configuration list for PBXNativeTarget "DaysToLiberationWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE10DBE570D807AE45879DF /* Debug */,
+				76FF51C5966E7A1B80482271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8416A1F70F71760A62EAA128 /* Build configuration list for PBXProject "DaysToLiberation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB216FE4FEF2BFD94C6880F /* Debug */,
+				CA9897E3EEAF99C6F04B0B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A027341E58B5889F8F160DF2 /* Build configuration list for PBXNativeTarget "DaysToLiberationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADD48F19D8CE1888DD13159 /* Debug */,
+				5732E2C2E5105DEC4EA1A53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B947CCA7E650B65D7C4DCF29 /* Project object */;
+}

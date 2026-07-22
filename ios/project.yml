@@ -1,0 +1,74 @@
+name: DaysToLiberation
+options:
+  bundleIdPrefix: com.careylzh
+  deploymentTarget:
+    iOS: "26.0"
+  xcodeVersion: "16.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+targets:
+  DaysToLiberation:
+    type: application
+    platform: iOS
+    sources:
+      - DaysToLiberation/App
+      - DaysToLiberation/Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.careylzh.daystoliberation
+        CODE_SIGN_ENTITLEMENTS: DaysToLiberation/App/DaysToLiberation.entitlements
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Days to Liberation
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        TARGETED_DEVICE_FAMILY: "1,2"
+    dependencies:
+      - target: DaysToLiberationWidgetExtension
+
+  DaysToLiberationWidgetExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - DaysToLiberation/Widget
+      - DaysToLiberation/Shared
+    info:
+      path: DaysToLiberation/Widget/Info.plist
+      properties:
+        CFBundleDisplayName: Countdown Widget
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.careylzh.daystoliberation.widget
+        CODE_SIGN_ENTITLEMENTS: DaysToLiberation/Widget/DaysToLiberationWidget.entitlements
+        SKIP_INSTALL: YES
+        TARGETED_DEVICE_FAMILY: "1,2"
+
+  DaysToLiberationTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - DaysToLiberation/Tests
+      - DaysToLiberation/Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.careylzh.daystoliberation.tests
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: DaysToLiberation
+
+schemes:
+  DaysToLiberation:
+    build:
+      targets:
+        DaysToLiberation: all
+        DaysToLiberationWidgetExtension: all
+        DaysToLiberationTests: [test]
+    test:
+      targets:
+        - DaysToLiberationTests

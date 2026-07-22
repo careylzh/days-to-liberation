@@ -10,6 +10,8 @@
 
 # production
 /build
+/ios/.DerivedData
+/ios/.DeviceDerivedData
 
 # misc
 .DS_Store

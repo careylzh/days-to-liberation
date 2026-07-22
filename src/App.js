@@ -51,6 +51,7 @@ function App() {
             {isToday ? 'happening today' : hasPassed ? 'days since' : 'days to go'}
           </span>
         </div>
+        <p className="date-reference">As of 22 July 2026</p>
       </section>
       <a
         className="photo-credit"

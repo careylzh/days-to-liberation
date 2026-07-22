@@ -9,4 +9,5 @@ test('renders the sample countdown event', () => {
     })
   ).toBeInTheDocument();
   expect(screen.getByText(/14 november 2026/i)).toBeInTheDocument();
+  expect(screen.getByText(/as of 22 july 2026/i)).toBeInTheDocument();
 });
